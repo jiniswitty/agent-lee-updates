@@ -1,39 +1,19 @@
 
 {
   "product": "Agent LEE",
-  "latest_version": "26.11.6",
+  "latest_version": "26.11.7",
   "minimum_version": "26.9.1",
-  "release_date": "2026-11-17",
+  "release_date": "2026-11-18",
   "release_notes": [
     {
-      "category": "신규 기능",
+      "category": "버그 수정",
       "items": [
-        "프로그램 업데이트 확인 기능 추가",
-        "GitHub Release 기반 설치 파일 다운로드",
-        "SHA-256 무결성 검증"
-      ]
-    },
-    {
-      "category": "디자인 개선",
-      "items": [
-        "시스템 페이지 레이아웃 개선",
-        "시스템 상태 카드 구성 통일"
-      ]
-    },
-    {
-      "category": "기능 개선",
-      "items": [
-        "대시보드 - 상한제한 주문 시 빨간색 X 대신 하늘색 아이콘으로 안내",
-        "대시보드 - 하락대비 추가매수 가격 현재가 기준으로 개선",
-        "대시보드 - 하락대비 추가매수 표기 개선(총 매수량 병기)",
-        "이메일 알림 - 오류 및 에러내용에 상한제한 정정주문, 에러내용 추가",
-        "주문 실행 중 업데이트 차단",
-        "AutoRunner 실행 중 업데이트 차단",
-        "다운로드 실패 시 임시 파일 정리",
-        "관리자 권한 설치 실행"
+        "일부 Windows 환경에서 업데이트 확인 시 발생하던 SSL 인증서 검증 오류 수정",
+        "PyInstaller 배포 파일에 CA 인증서 포함",
+        "업데이트 확인 및 HTTPS 연결 안정성 개선"
       ]
     }
   ],
-  "installer_url": "https://github.com/jiniswitty/agent-lee-updates/releases/download/v26.11.6/AgentLEE-Setup-26.11.6.exe",
-  "sha256": "0EC2761183159F60BBF3B66D46819A3719B38F1B5C1D47460F3D7AB158A1943D"
+  "installer_url": "https://github.com/jiniswitty/agent-lee-updates/releases/download/v26.11.7/AgentLEE-Setup-26.11.7.exe",
+  "sha256": "C6E0F1E954D1B1D9E516E90AFFDF99CACE865AD82675C07A7A35356D709F6379"
 }
