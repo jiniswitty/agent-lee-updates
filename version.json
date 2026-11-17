@@ -1,14 +1,16 @@
 
 {
   "product": "Agent LEE",
-  "latest_version": "26.11.5",
+  "latest_version": "26.11.6",
   "minimum_version": "26.9.1",
   "release_date": "2026-11-17",
   "release_notes": [
     {
       "category": "신규 기능",
       "items": [
-        "프로그램 업데이트 확인 기능 추가"
+        "프로그램 업데이트 확인 기능 추가",
+        "GitHub Release 기반 설치 파일 다운로드",
+        "SHA-256 무결성 검증"
       ]
     },
     {
@@ -24,10 +26,14 @@
         "대시보드 - 상한제한 주문 시 빨간색 X 대신 하늘색 아이콘으로 안내",
         "대시보드 - 하락대비 추가매수 가격 현재가 기준으로 개선",
         "대시보드 - 하락대비 추가매수 표기 개선(총 매수량 병기)",
-        "이메일 알림 - 오류 및 에러내용에 상한제한 정정주문, 에러내용 추가"
+        "이메일 알림 - 오류 및 에러내용에 상한제한 정정주문, 에러내용 추가",
+        "주문 실행 중 업데이트 차단",
+        "AutoRunner 실행 중 업데이트 차단",
+        "다운로드 실패 시 임시 파일 정리",
+        "관리자 권한 설치 실행"
       ]
     }
   ],
-  "installer_url": "https://github.com/jiniswitty/agent-lee-updates/releases/download/v26.11.5/AgentLEE-Setup-26.11.5.exe",
-  "sha256": "E1E668E56C52572AA2A9EE77F2F4E7C48F9B1962DE3BAAF3EAFBD7336539D660"
+  "installer_url": "",
+  "sha256": ""
 }
