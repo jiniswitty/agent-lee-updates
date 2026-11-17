@@ -28,6 +28,6 @@
       ]
     }
   ],
-  "installer_url": "",
-  "sha256": ""
+  "installer_url": "https://github.com/jiniswitty/agent-lee-updates/releases/download/v26.11.5/AgentLEE-Setup-26.11.5.exe",
+  "sha256": "E1E668E56C52572AA2A9EE77F2F4E7C48F9B1962DE3BAAF3EAFBD7336539D660"
 }
