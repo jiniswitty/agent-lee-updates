@@ -1,19 +1,20 @@
 
 {
   "product": "Agent LEE",
-  "latest_version": "26.11.7",
+  "latest_version": "26.11.8",
   "minimum_version": "26.9.1",
-  "release_date": "2026-11-18",
+  "release_date": "2026-11-24",
   "release_notes": [
     {
-      "category": "버그 수정",
+      "category": "수정 사항",
       "items": [
-        "일부 Windows 환경에서 업데이트 확인 시 발생하던 SSL 인증서 검증 오류 수정",
-        "PyInstaller 배포 파일에 CA 인증서 포함",
-        "업데이트 확인 및 HTTPS 연결 안정성 개선"
+        "자동주문 결과 이메일 제목에 계좌명 표시",
+        "계좌번호 마스킹 처리",
+        "환율 조회 패키지 오류 개선"
       ]
     }
   ],
-  "installer_url": "https://github.com/jiniswitty/agent-lee-updates/releases/download/v26.11.7/AgentLEE-Setup-26.11.7.exe",
-  "sha256": "0A94D8FAB0EC3669BC70F435407678ECED710B876183C72062D65F7FE627BE74"
+  "installer_url": "https://github.com/jiniswitty/agent-lee-updates/releases/download/v26.11.8/AgentLEE-Setup-26.11.8.exe",
+  "sha256": "2B6A1ED8BA5188DA362635C42A95656EB687AFC3C39A036065B1480FDA9764BF"
 }
+
